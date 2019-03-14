@@ -7,7 +7,7 @@
 ### 2.将现有Excel用例，复制到模板excel中
 ### 3.执行bat，进行转换
 ### 4.在testlink中导入即可
-
+![cmd-markdown-logo](http://i1.bvimg.com/680306/1c79a495e6c8dede.png)
 
 #Mac用户
 ### 1.解压工具    TestLink_XLSX_TO_XML.zip
