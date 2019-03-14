@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<testsuite>
+    <testsuite name="一级个人信息">
+        <node_order><![CDATA[10]]></node_order>
+        <details><![CDATA[]]></details>
+        <testsuite name="二级个人详情">
+            <node_order><![CDATA[10]]></node_order>
+            <details><![CDATA[]]></details>
+            <testsuite name="三级个人父母">
+                <node_order><![CDATA[10]]></node_order>
+                <details><![CDATA[]]></details>
+                <testsuite name="四级个人孩子">
+                    <node_order><![CDATA[10]]></node_order>
+                    <details><![CDATA[]]></details>
+                    <testcase internalid="10000000" name="添加用户名">
+                        <node_order><![CDATA[0]]></node_order>
+                        <externalid><![CDATA[3717]]></externalid>
+                        <version><![CDATA[1]]></version>
+                        <summary><![CDATA[]]></summary>
+                        <preconditions><![CDATA[修改用户名]]></preconditions>
+                        <execution_type><![CDATA[1]]></execution_type>
+                        <importance><![CDATA[]]></importance>
+                        <steps>
+                            <step>
+                                <step_number><![CDATA[1]]></step_number>
+                                <actions><![CDATA[1、添加用户名
+2、修改用户名]]></actions>
+                                <expectedresults><![CDATA[1、添加成功
+2、添加失败]]></expectedresults>
+                                <execution_type><![CDATA[]]></execution_type>
+                            </step>
+                        </steps>
+                    </testcase>
+                </testsuite>
+                <testcase internalid="10000002" name="（三级）添加用户名">
+                    <node_order><![CDATA[0]]></node_order>
+                    <externalid><![CDATA[7986]]></externalid>
+                    <version><![CDATA[1]]></version>
+                    <summary><![CDATA[]]></summary>
+                    <preconditions><![CDATA[（三级）修改用户名]]></preconditions>
+                    <execution_type><![CDATA[1]]></execution_type>
+                    <importance><![CDATA[]]></importance>
+                    <steps>
+                        <step>
+                            <step_number><![CDATA[1]]></step_number>
+                            <actions><![CDATA[1、（三级）添加用户名
+4、修改用户名]]></actions>
+                            <expectedresults><![CDATA[1、（三级）添加成功
+4、添加失败]]></expectedresults>
+                            <execution_type><![CDATA[]]></execution_type>
+                        </step>
+                    </steps>
+                </testcase>
+            </testsuite>
+        </testsuite>
+        <testcase internalid="10000001" name="（一级）添加用户名（一级）">
+            <node_order><![CDATA[0]]></node_order>
+            <externalid><![CDATA[6157]]></externalid>
+            <version><![CDATA[1]]></version>
+            <summary><![CDATA[]]></summary>
+            <preconditions><![CDATA[（一级）修改用户名]]></preconditions>
+            <execution_type><![CDATA[1]]></execution_type>
+            <importance><![CDATA[]]></importance>
+            <steps>
+                <step>
+                    <step_number><![CDATA[1]]></step_number>
+                    <actions><![CDATA[1、（一级）添加用户名
+3、修改用户名]]></actions>
+                    <expectedresults><![CDATA[1、（一级）添加成功
+3、添加失败]]></expectedresults>
+                    <execution_type><![CDATA[]]></execution_type>
+                </step>
+            </steps>
+        </testcase>
+    </testsuite>
+    <testsuite name="你好">
+        <node_order><![CDATA[10]]></node_order>
+        <details><![CDATA[]]></details>
+    </testsuite>
+    <testsuite name="你好">
+        <node_order><![CDATA[10]]></node_order>
+        <details><![CDATA[]]></details>
+        <testsuite name="不知道">
+            <node_order><![CDATA[10]]></node_order>
+            <details><![CDATA[]]></details>
+            <testsuite name="不晓得">
+                <node_order><![CDATA[10]]></node_order>
+                <details><![CDATA[]]></details>
+                <testcase internalid="10000003" name="">
+                    <node_order><![CDATA[0]]></node_order>
+                    <externalid><![CDATA[0344]]></externalid>
+                    <version><![CDATA[1]]></version>
+                    <summary><![CDATA[]]></summary>
+                    <preconditions><![CDATA[]]></preconditions>
+                    <execution_type><![CDATA[1]]></execution_type>
+                    <importance><![CDATA[]]></importance>
+                    <steps>
+                        <step>
+                            <step_number><![CDATA[1]]></step_number>
+                            <actions><![CDATA[]]></actions>
+                            <expectedresults><![CDATA[]]></expectedresults>
+                            <execution_type><![CDATA[]]></execution_type>
+                        </step>
+                    </steps>
+                </testcase>
+            </testsuite>
+        </testsuite>
+    </testsuite>
+    <testsuite name="谁知道">
+        <node_order><![CDATA[10]]></node_order>
+        <details><![CDATA[]]></details>
+        <testcase internalid="10000004" name="">
+            <node_order><![CDATA[0]]></node_order>
+            <externalid><![CDATA[1166]]></externalid>
+            <version><![CDATA[1]]></version>
+            <summary><![CDATA[]]></summary>
+            <preconditions><![CDATA[]]></preconditions>
+            <execution_type><![CDATA[1]]></execution_type>
+            <importance><![CDATA[]]></importance>
+            <steps>
+                <step>
+                    <step_number><![CDATA[1]]></step_number>
+                    <actions><![CDATA[]]></actions>
+                    <expectedresults><![CDATA[]]></expectedresults>
+                    <execution_type><![CDATA[]]></execution_type>
+                </step>
+            </steps>
+        </testcase>
+    </testsuite>
+    <testsuite name="不好吧">
+        <node_order><![CDATA[10]]></node_order>
+        <details><![CDATA[]]></details>
+        <testcase internalid="10000005" name="">
+            <node_order><![CDATA[0]]></node_order>
+            <externalid><![CDATA[4123]]></externalid>
+            <version><![CDATA[1]]></version>
+            <summary><![CDATA[]]></summary>
+            <preconditions><![CDATA[]]></preconditions>
+            <execution_type><![CDATA[1]]></execution_type>
+            <importance><![CDATA[]]></importance>
+            <steps>
+                <step>
+                    <step_number><![CDATA[1]]></step_number>
+                    <actions><![CDATA[]]></actions>
+                    <expectedresults><![CDATA[]]></expectedresults>
+                    <execution_type><![CDATA[]]></execution_type>
+                </step>
+            </steps>
+        </testcase>
+    </testsuite>
+</testsuite>
