@@ -1,4 +1,4 @@
-# Excel_Convert_To_TestLink
+# Excel_Convert_To_TestLink（很多年前写的工具，有同学在qq上问我，就搬过来了，顺带改了个bug）
 把Excel测试用例转换为可以导入testlink格式的转换工具
 ### 1.解压工具    TestLink_XLSX_TO_XML.zip
 
