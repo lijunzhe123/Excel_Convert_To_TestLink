@@ -1,0 +1,1 @@
+chcp 65001 > nul && java -Dfile.encoding=utf-8 -jar TestLink_XLSX_TO_XML.jar
