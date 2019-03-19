@@ -1,5 +1,6 @@
 package com.jyall.utils.email.springmail.dom4j;
 
+
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -64,12 +65,12 @@ public class CreatXML
 
             vo.setExecution_type("1");
 
-            System.out.println("总共需要转换:{ " + a.length + " 行");
+            System.out.println("总共需要转换:{ " + a.length + " 行}");
             for (int i = 0; i < a.length; i++)
             {
                 vo.setExternalid(RadomUtils.getrandomLengthString(4));
                 vo.setInternalid(internalid + i);
-                System.out.println("正在转换第:{ " + (i + 1) + " 行");
+                System.out.println("正在转换第:{ " + (i + 1) + " 行}");
                 if (i == 1000) {
                     System.out.println(i);
                 }
@@ -370,8 +371,8 @@ public class CreatXML
                         timefix + ".xml";
                 System.out.println("New_File_Name: " + tmpname);
                 String fullname = tmpfile.getAbsolutePath()
-                        .substring(0, tmpfile.getAbsolutePath().lastIndexOf('/')) +
-                        "/" + tmpname;
+                        .substring(0, tmpfile.getAbsolutePath().lastIndexOf(File.separator)) +
+                        File.separator + tmpname;
                 System.out.println("New_File_Full_Path_Name: " + fullname);
 
                 tmpfile = new File(fullname);
