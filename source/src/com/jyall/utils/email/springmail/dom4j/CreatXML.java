@@ -129,7 +129,8 @@ public class CreatXML
                 fourisEmpty = fourModel.isEmpty();
                 if (firstisEmpty)
                 {
-                    System.err.println("大侠，请验证{模块一}是否有内容");
+                    System.err.println("大侠，保证第[ "+(i + 1) +" ]行的  【一级模块】有内容");
+                    Thread.sleep(6000);
                     System.exit(-1);
                 }
                 if (((!firstisEmpty) && (secisEmpty) && (!thirdisEmpty)) ||
@@ -137,13 +138,15 @@ public class CreatXML
                                 (!fourisEmpty)) || ((!firstisEmpty) && (secisEmpty) &&
                         (thirdisEmpty) && (!fourisEmpty)))
                 {
-                    System.err.println("大侠，请验证{模块二}是否有内容");
+                    System.err.println("大侠，保证第[ "+(i + 1) +" ]行的  【二级模块】有内容");
+                    Thread.sleep(6000);
                     System.exit(-1);
                 }
                 if ((!firstisEmpty) && (!secisEmpty) && (thirdisEmpty) &&
                         (!fourisEmpty))
                 {
-                    System.err.println("大侠，请验证{模块三}是否有内容");
+                    System.err.println("大侠，请保证第[ "+(i + 1) +" ]行的  【三级模块】有内容");
+                    Thread.sleep(6000);
                     System.exit(-1);
                 }
                 String mapKey = firstModel + secModel + thirdModel + fourModel;
